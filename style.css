@@ -38,7 +38,7 @@ nav li a{
     margin-left: auto;
 }
 .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/assets/herosec.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./assets/herosec.jpg);
     background-size: cover;
     height: 700px ;
     padding: 50px;
