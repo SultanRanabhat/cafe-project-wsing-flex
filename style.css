@@ -1,0 +1,184 @@
+.page{
+    height: 100%;
+    width: 100%;
+    background-color: #808000;
+}
+.headerdiv .logo img{
+    height: 120px;
+    width: 120px;
+}
+
+.headerdiv{
+    display: flex;
+    
+}
+nav{
+    /* ask next time*/
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%);
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+     
+}
+nav li{
+    
+    margin-left: 50px;
+    font-size: 15px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.headerdiv .reservation{
+    margin-left: auto;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/assets/herosec.jpg);
+    background-size: cover;
+    height: 700px ;
+    padding: 50px;
+    padding-top: 80px;
+    
+}
+.reservation button{
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.reservation a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.hello{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    height: 500px;
+    width: 1100px;
+    /*
+    border: solid white 1px;
+    */
+    padding-top: 0px;
+
+}
+hr{
+    width: 80px;
+    border: solid white 2px;
+    border-color: orange;
+}
+.hello span{
+    font-size: 20px;
+}
+.hello h1{
+    font-size: 90px;
+}
+.button button{
+    border: solid white 1px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 20px;
+    
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+/*ABOUT US*/
+.about{
+    display: flex;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.about img{
+    
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+}
+.about .aboutmargin{
+    margin-left: auto;
+}
+.about hr{
+    margin: 0;
+}
+.about .abouttext{
+    /*
+    border: solid white 1px;*/
+    height: 500px;
+    width: 600px;
+    color: white;
+    padding-top: 0px;
+}
+.abouttext span{
+    font-size: 30px;
+}
+.abouttext h1{
+    font-size: 60px;
+}
+.abouttext button{
+    border-radius: 20px;
+    border: solid orange 1px;
+    padding: 20px;
+    background-color: orange;
+    color: white;
+}
+
+/*Coffee Menu*/
+.coffeemenu{
+    display: flex;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.coffeemenu img{
+    
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+}
+.coffeemenu .coffeemargin{
+    margin:0;
+}
+.coffeemenu hr{
+    margin-left: auto;
+    margin: 0;
+}
+.coffeemenu .coffeetext{
+    /*
+    border: solid white 1px;*/
+    margin-left: auto;
+    height: 500px;
+    width: 600px;
+    color: white;
+    padding-top: 0px;
+}
+.coffeetext span{
+    font-size: 30px;
+}
+.coffeetext h1{
+    font-size: 60px;
+}
+.coffeetext button{
+    border-radius: 20px;
+    border: solid orange 1px;
+    padding: 20px;
+    background-color: orange;
+    color: white;
+}
