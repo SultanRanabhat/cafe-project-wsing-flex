@@ -82,6 +82,11 @@ hr{
 }
 .hello h1{
     font-size: 90px;
+    margin-bottom: 0px;
+}
+.hello p{
+    font-size: 20px;
+    color: orange;
 }
 .button button{
     border: solid white 1px;
@@ -92,6 +97,9 @@ hr{
     background-color: transparent;
     margin: 20px;
     
+}
+.button button:hover{
+    background-color: #ffa50030;
 }
 .button button a{
     text-decoration: none;
@@ -105,12 +113,14 @@ hr{
     padding: 50px;
     padding-top: 100px;
     padding-bottom: 70px;
+    box-shadow: 0px 15px 50px black;
 }
 .about img{
     
     border-radius: 20px;
     height: 400px;
     width: 600px;
+    box-shadow: 0px 15px 120px black;
 }
 .about .aboutmargin{
     margin-left: auto;
@@ -131,6 +141,7 @@ hr{
 }
 .abouttext h1{
     font-size: 60px;
+    text-shadow: 0px 10px 10px black;
 }
 .abouttext button{
     border-radius: 20px;
@@ -152,6 +163,7 @@ hr{
     border-radius: 20px;
     height: 400px;
     width: 600px;
+    box-shadow: 0px 15px 120px black;
 }
 .coffeemenu .coffeemargin{
     margin:0;
