@@ -4,8 +4,8 @@
     background-color: #808000;
 }
 .headerdiv .logo img{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .headerdiv{
@@ -13,6 +13,7 @@
     
 }
 nav{
+    margin-top: 10px;
     /* ask next time*/
     position: absolute;
     left: 47%;
@@ -51,6 +52,7 @@ nav li a{
     padding-right: 25px;
     background-color: orange;
     border-radius: 20px;
+    border: orange;
 }
 .reservation a{
     color: white;
@@ -120,7 +122,7 @@ hr{
     border-radius: 20px;
     height: 400px;
     width: 600px;
-    box-shadow: 0px 15px 120px black;
+    box-shadow: 15px 15px 60px black;
 }
 .about .aboutmargin{
     margin-left: auto;
@@ -162,7 +164,7 @@ hr{
     border-radius: 20px;
     height: 400px;
     width: 600px;
-    box-shadow: 0px 15px 120px black;
+    box-shadow: -15px 15px 60px black;
 }
 .coffeemenu .coffeemargin{
     margin:0;
@@ -193,3 +195,93 @@ hr{
     background-color: orange;
     color: white;
 }
+
+/*Features */
+.feature{
+    /*
+    border: solid white 1px;*/
+    height: 600px;
+    width: 93.3%;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.feature h1{
+    font-size: 60px;
+}
+.featureflex{
+    /*
+    border: solid white 1px;*/
+    display: flex;
+    margin-top: 90px;
+    height: 200px;
+    width: auto;
+}
+.feature span{
+    font-size: 30px;
+}
+.experienced{
+    margin-left: auto;
+}
+.quality{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+.featureflex span{
+    color: white;
+}
+
+/*working hours*/
+.workingflex{
+    /*
+    border: solid white 1px;*/
+    padding: 50px;
+    display: flex;
+    height: 400px;
+    width: 93.3%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./assets/workingbg3.jpg) ;
+}
+.workingtext{
+    margin-top: 80px;
+    color: white;
+}
+.workingtext hr{
+    margin: 0;
+}
+.workingtext span{
+    font-size: 20px;
+}
+.workingtext h1{
+    font-size: 60px;
+}
+.workingbutton button{
+    border: solid white 1px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 0;
+    margin-right: 20px;
+}
+.workingbutton a{
+    text-decoration: none;
+    color: white;
+}
+.workingbutton button:hover{
+    background-color: #ffa50030;
+}
+.time{
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    height:220px ;
+    width: 270px;
+    background-color: #808000;
+    margin-left: auto;
+    box-shadow: 0px 5px 50px black;
+}
+
