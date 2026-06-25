@@ -1,7 +1,16 @@
-.page{
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
     height: 100%;
-    width: 100%;
-    background-color: #808000;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.page{
+    background-color: black;
 }
 .headerdiv .logo img{
     height: 100px;
@@ -42,14 +51,16 @@ nav li a{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./assets/herosec.jpg);
     background-size: cover;
     height: 700px ;
-    padding: 50px;
+    padding-left: 50px;
     padding-top: 80px;
+    padding-right: 50px;
     
 }
 .reservation button{
-    padding: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: orange;
     border-radius: 20px;
     border: orange;
@@ -61,17 +72,11 @@ nav li a{
 }
 .hello{
     position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%);
     text-align: center;
     color: white;
-    height: 500px;
-    width: 1100px;
     /*
     border: solid white 1px;
     */
-    padding-top: 0px;
 
 }
 hr{
@@ -122,7 +127,10 @@ hr{
     border-radius: 20px;
     height: 400px;
     width: 600px;
-    box-shadow: 15px 15px 60px black;
+    box-shadow: 3px 3px 100px orange , -3px -3px 100px orange;
+}
+.about img:hover{
+    transform: translateY(-3%);
 }
 .about .aboutmargin{
     margin-left: auto;
@@ -164,7 +172,10 @@ hr{
     border-radius: 20px;
     height: 400px;
     width: 600px;
-    box-shadow: -15px 15px 60px black;
+    box-shadow: 3px 3px 100px orange , -3px -3px 100px orange;
+}
+.coffeemenu img:hover{
+    transform: translateY(-3%);
 }
 .coffeemenu .coffeemargin{
     margin:0;
@@ -205,9 +216,11 @@ hr{
     padding: 50px;
     padding-top: 100px;
     text-align: center;
+    color: white;
 }
 .feature h1{
     font-size: 60px;
+    color: white;
 }
 .featureflex{
     /*
@@ -216,6 +229,7 @@ hr{
     margin-top: 90px;
     height: 200px;
     width: auto;
+    color: white;
 }
 .feature span{
     font-size: 30px;
@@ -239,8 +253,6 @@ hr{
     border: solid white 1px;*/
     padding: 50px;
     display: flex;
-    height: 400px;
-    width: 93.3%;
     background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./assets/workingbg3.jpg) ;
 }
@@ -280,8 +292,9 @@ hr{
     padding: 20px;
     height:220px ;
     width: 270px;
-    background-color: #808000;
+    background-color: black;
     margin-left: auto;
     box-shadow: 0px 5px 50px black;
+    color: white;
 }
 
